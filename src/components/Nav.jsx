@@ -10,16 +10,16 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/' style={{color: darkMode? '#000':'#fff'}}>Home</Link>
           </li>
           <li>
-            <Link to='/movies'>Movie</Link>
+            <Link to='/movies' style={{color: darkMode? '#000':'#fff'}}>Movie</Link>
           </li>
           <li>
-            <Link to='/tv'>Tv</Link>
+            <Link to='/tv' style={{color: darkMode? '#000':'#fff'}}>Tv</Link>
           </li>
           <li>
-            <Link to='/Series'>Series</Link>
+            <Link to='/Series' style={{color: darkMode? '#000':'#fff'}}>Series</Link>
           </li>
         </ul>
       </nav>
