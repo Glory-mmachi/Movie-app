@@ -92,6 +92,7 @@ a {
 .movies {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 900px) {
