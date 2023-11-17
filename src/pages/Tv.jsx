@@ -3,7 +3,7 @@ import MovieList from "../components/MovieList";
 
 export default function Tv() {
   const { fetchMovies, searchKey } = useTheme();
-  const type = searchKey ? "/search/movie" : "/discover/tv";
+  const type = searchKey ? "/search/tv" : "/discover/tv";
   fetchMovies(type, searchKey);
   return (
     <div>

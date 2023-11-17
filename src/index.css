@@ -95,6 +95,7 @@ a {
   justify-content: center;
 }
 
+/* responsive styling */
 @media only screen and (max-width: 900px) {
   .container {
     padding: 25px 40px;
@@ -102,7 +103,6 @@ a {
   .movie-title {
     font-size: 60px;
   }
-
   .movies {
     justify-content: center;
   }
