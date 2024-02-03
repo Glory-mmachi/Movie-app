@@ -52,6 +52,9 @@ a {
   background-color: #000;
   color: #fff;
 }
+button {
+  border: none;
+}
 
 /* hero styling */
 .hero-section {
